@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../../assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+.buttonHeader{
+    color: #6A7059;
+    font-family: 'OpenSans-Regular';
+    font-size: 30px;
+}
