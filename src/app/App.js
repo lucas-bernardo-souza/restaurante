@@ -1,11 +1,14 @@
 import{Header} from "../components/header/header"
+import{Inicial} from "../components/inicial/inicial"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <body>
       <Header/>
-    </div>
+      <Inicial/>
+    </body>
+    
   );
 }
 

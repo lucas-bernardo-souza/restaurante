@@ -19,7 +19,7 @@
 
 .headerLogo{
     color: #C19A6B;
-    height: 100%;
+    height: 50%;
     padding-left: 50px;
     display: flex;
     flex-flow: column nowrap;
@@ -29,11 +29,13 @@
 .headerLogo h1 {
     font-family: 'Pacifico-Regular', sans-serif;
     font-size: 40px;
+    margin: 0;
 }
 
 .headerLogo p{
     font-family: 'OpenSans-Regular';
     font-size: 20px;
+    margin: 0;
 }
 
 .headerMenu{
