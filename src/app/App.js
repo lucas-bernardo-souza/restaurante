@@ -1,13 +1,15 @@
-import{Header} from "../components/header/header"
-import{Inicial} from "../components/inicial/inicial"
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {Home} from "../pages/home"
+import "./App.css"
 
 function App() {
   return (
-    <body>
-      <Header/>
-      <Inicial/>
-    </body>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/pedidos" element={<Pedidos/>}/>
+      </Routes>
+    </Router>
     
   );
 }
