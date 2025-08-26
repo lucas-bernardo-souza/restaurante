@@ -1,6 +1,7 @@
+import "./button.css"
 
 export function Button(props){
     return(
-        <button className="buttonHeader">{props.nome}</button>
+        <button className="buttonHeader" href="">{props.nome}</button>
     )
 }

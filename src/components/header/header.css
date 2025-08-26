@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url('../../assets/fonts/Pacifico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../../assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+.header{
+    height: 15%;
+    background-color: #4B2E2A;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo{
+    color: #C19A6B;
+    height: 50%;
+    padding-left: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.headerLogo h1 {
+    font-family: 'Pacifico-Regular', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.headerLogo p{
+    font-family: 'OpenSans-Regular';
+    font-size: 20px;
+    margin: 0;
+}
+
+.headerMenu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.headerMenu button:hover{
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.headerMenu button.selected {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
