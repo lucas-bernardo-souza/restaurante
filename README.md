@@ -36,13 +36,13 @@ Para executar este projeto localmente, você precisará ter o [Node.js](https://
 1.  **Clone o Repositório**
     Abra o seu terminal ou git bash e clone o projeto para a sua máquina.
     ```bash
-    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+    git clone https://github.com/lucas-bernardo-souza/restaurante.git
     ```
 
 2.  **Acesse a Pasta do Projeto**
     Navegue até o diretório que acabou de ser criado.
     ```bash
-    cd nome-do-repositorio
+    cd restaurante
     ```
 
 3.  **Instale as Dependências**
