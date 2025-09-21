@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Casa do Assado - Sistema de Gestão
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto front-end desenvolvido em React para um sistema de gestão de restaurante e buffet. A aplicação foi projetada para visualizar e gerenciar pedidos, mesas, caixa e outros aspectos operacionais de um restaurante.
 
-## Available Scripts
+## Visão Geral
 
-In the project directory, you can run:
+O sistema apresenta uma interface limpa e organizada, com uma página inicial de boas-vindas e uma seção dedicada à visualização de pedidos em tempo real. A estrutura do projeto é baseada em componentes, o que facilita a manutenção e a adição de novas funcionalidades.
 
-### `npm start`
+### Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **React:** Biblioteca principal para a construção da interface de usuário.
+* **React Router DOM:** Para gerenciamento de rotas e navegação entre as páginas.
+* **CSS:** Para estilização dos componentes, com arquivos dedicados para cada um.
+* **NPM:** Como gerenciador de pacotes e para execução dos scripts do projeto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Funcionalidades Atuais
 
-### `npm test`
+* **Página Inicial:** Tela de apresentação do restaurante.
+* **Cabeçalho com Navegação:** Um menu principal com acesso rápido às seções:
+    * Pedidos
+    * Mesas
+    * Caixa
+    * Produtos
+    * Garçons
+    * Relatórios
+* **Visualização de Pedidos:** Uma página dedicada (`/pedidos`) que exibe uma lista de pedidos, cada um com seu número, mesa correspondente e itens consumidos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Como Executar o Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para executar este projeto localmente, você precisará ter o [Node.js](https://nodejs.org/) e o [NPM](https://www.npmjs.com/) instalados em sua máquina.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Passo a Passo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  **Clone o Repositório**
+    Abra o seu terminal ou git bash e clone o projeto para a sua máquina.
+    ```bash
+    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+    ```
 
-### `npm run eject`
+2.  **Acesse a Pasta do Projeto**
+    Navegue até o diretório que acabou de ser criado.
+    ```bash
+    cd nome-do-repositorio
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3.  **Instale as Dependências**
+    Execute o comando abaixo para instalar todas as dependências do projeto listadas no arquivo `package.json`.
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4.  **Inicie a Aplicação**
+    Após a instalação ser concluída, inicie o servidor de desenvolvimento local.
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5.  **Acesse no Navegador**
+    O comando anterior iniciará a aplicação e a abrirá automaticamente em seu navegador padrão no endereço `http://localhost:3000`. A partir daí, você já pode navegar e testar o sistema.
